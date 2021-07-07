@@ -1,2 +1,2 @@
 # Slidshow-Recursive
-Screating a small "recursive" slide show using javascript.
+Screating a small "recursive" slide show using javascript(jquery).
