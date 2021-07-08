@@ -1,2 +1,4 @@
 # Slidshow-Recursive
-Screating a small "recursive" slide show using javascript(jquery).
+Creating a small "recursive" slide show using javascript(jquery).
+
+*Works perfectly in mac
