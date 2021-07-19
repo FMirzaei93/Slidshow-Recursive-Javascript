@@ -43,7 +43,7 @@ $(document).ready(function() {
         var my_li = document.createElement('li');
         my_li.innerHTML = `<img class="my-img" src=${images[index]}><span>${titles[index]}</span>`;
         ul.prepend(my_li);
-        // after adding a li before active_li, it will move 250px(the size of image) to right(because of the order of elements in <ul> tag), so we need to put it in its initial position in order to get ready for sliding.
+        // after adding a li before active_li, it will move 250px(the size of the image) to the right(because of the order of elements in the <ul> tag), so we need to put it in its initial position in order to get ready for sliding.
         ul.css('margin-left', `-${imgWidth}px`);
         ul.animate({ 'margin-left': '0px' }, 'slow');
         active_li.removeClass('active-li');
